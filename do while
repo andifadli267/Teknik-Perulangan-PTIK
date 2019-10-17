@@ -1,0 +1,14 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main(){
+  int bil=10;
+  do{
+    cout<<"Hi! do-while tetap ini dijalankan, "<<"Walaupun kondisi/keadaan salah."<<endl;
+  }
+  while(bil<5);
+  cout<<endl;
+  cout<<"Keluar. Bukan peryataan do-while."<<endl;
+  _getche();
+  return 0;
+}
